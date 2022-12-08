@@ -10,9 +10,26 @@
     <h1 id="title"></h1>
     <p id="description" ></p>
     <form id="survey-form">
-        <input type="text" id="name" />
-        <input type="text" id="email">
-        <input type="number" id="number" />
+    <div class = "input-element">
+        <label id="name-label">
+            name
+        </label>
+        <input type="text" id="name" required/>
+    </div>
+    <div class = "input-element">
+        <label id="E-mail">
+            Email
+        </label>
+        <input type="text" id="email" placeholder="E-mail" required/>
+    </div>
+    <div class = "input-element">
+        <label id ="email-label">
+            age
+        </label>
+        <input type="number" id="number" min="18" max="99" required/>
+        
+    </div>
+        
     </form>
 </body>
 </html>
